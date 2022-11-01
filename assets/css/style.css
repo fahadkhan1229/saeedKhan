@@ -374,7 +374,25 @@ h6 {
 .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  left: 60px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.my-flaot {
+  margin-top: 14px;
+}
 
+.bounce {
+  animation: bounce 2s infinite;
+}
 .navbar-mobile .dropdown ul {
   position: static;
   display: none;
@@ -1424,6 +1442,15 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+}
+@media (max-width: 400px) {
+  .logoName {
+
+    font-size: 22px;
+  }
+  .bi-list::before {
+    margin-left: 295%;
   }
 }
 
